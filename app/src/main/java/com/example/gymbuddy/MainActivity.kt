@@ -45,7 +45,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
         }
-
         // Obsługa kliknięcia przycisku "Dodaj użytkownika"
         val create_profile_button = findViewById<Button>(R.id.add_user_button)
 
