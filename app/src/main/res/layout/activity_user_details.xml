@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".UserProfile.UserDetailsActivity">>
+
+    <!-- Nagłówek okienka -->
+    <TextView
+        android:id="@+id/user_details_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Szczegóły użytkownika"
+        android:padding="16dp"
+        android:textSize="20sp" />
+
+    <!-- Imię użytkownika -->
+    <TextView
+        android:id="@+id/user_details_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imię: "
+        android:padding="16dp" />
+
+    <!-- Płeć użytkownika -->
+    <TextView
+        android:id="@+id/user_details_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Płeć: "
+        android:padding="16dp" />
+
+    <!-- Wiek użytkownika -->
+    <TextView
+        android:id="@+id/user_details_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wiek: "
+        android:padding="16dp" />
+
+    <!-- Wzrost użytkownika -->
+    <TextView
+        android:id="@+id/user_details_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wzrost: "
+        android:padding="16dp" />
+
+    <!-- Waga użytkownika -->
+    <TextView
+        android:id="@+id/user_details_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waga: "
+        android:padding="16dp" />
+
+    <!-- Cel użytkownika -->
+    <TextView
+        android:id="@+id/user_details_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cel: "
+        android:padding="16dp" />
+
+    <!-- Poziom użytkownika -->
+    <TextView
+        android:id="@+id/user_details_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poziom: "
+        android:padding="16dp" />
+
+</LinearLayout>

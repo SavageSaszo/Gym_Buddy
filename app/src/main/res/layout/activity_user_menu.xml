@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context=".UserMenu"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/profilButton"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content"
+        android:text="Profil użytkownika"/>
+
+    <Button
+        android:id="@+id/kalorieButton"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content"
+        android:text="Dziennik kalorii"/>
+
+    <Button
+        android:id="@+id/kcalButton"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content"
+        android:text="Kcal i BMI"/>
+
+    <Button
+        android:id="@+id/treningButton"
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="wrap_content"
+        android:text="Trening"/>
+
+</LinearLayout>

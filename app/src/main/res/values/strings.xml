@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gym Buddy</string>
+    <string name="select_goal_prompt">Wybierz cel:</string>
+    <string-array name="goal_options">
+        <item>Utrata wagi</item>
+        <item>Utrzymanie wagi</item>
+        <item>Wzrost masy</item>
+    </string-array>
+    <string name="select_level_prompt">Wybierz poziom:</string>
+    <string-array name="level_options">
+        <item>Brak aktywności fizycznej</item>
+        <item>Niska aktywność fizyczna</item>
+        <item>Umiarkowana aktywność fizyczna</item>
+        <item>Wysoka aktywność fizyczna</item>
+        <item>Bardzo wysoka aktywność fizyczna</item>
+    </string-array>
+    <string name="minutes">Minuty: %1$d</string>
+    <string name="time_remaining">Time remaining: %1$d seconds</string>
+    <string name="time_up">Time\'s up!</string>
+    <string name="licznik_text">Odliczanie: %s</string>
+
+</resources>

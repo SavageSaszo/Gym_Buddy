@@ -1,0 +1,123 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".KcalBmi.KcalBmi"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/calories_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zapotrzebowanie kaloryczne:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_details_caloric_needs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2000 kcal"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/protein_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zapotrzebowanie na białko:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/protein_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100 g"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/carbs_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zapotrzebowanie na węgle:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/carbs_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="200 g"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/fat_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zapotrzebowanie na tłuszcze:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fat_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50 g"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:id="@+id/bmi_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BMI:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bmi_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="22.5"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zdrowy dorosły człowiek o prawidłowym stosunku wagi do wzrostu ma wskaźnik w granicach 18,5–24,9. BMI poniżej 18,5 informuje o niedowadze. Osoby ze wskaźnikiem BMI 25,0-29,9 cierpią na nadwagę. Współczynnik BMI powyżej 30,0 to już otyłość."
+            android:textSize="20sp"
+            android:textColor="#757272"
+            android:padding="16dp" />
+
+    </LinearLayout>
+</ScrollView>

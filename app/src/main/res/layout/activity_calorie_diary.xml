@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CalorieDiary.CalorieDiary"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/nutrition_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_textview"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/calories_label"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Kcal"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/protein_label"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Białko (g)"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/carbs_label"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Węglowodany (g)"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/fat_label"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Tłuszcze (g)"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/date_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dziennik - 6 kwietnia 2023"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_textview"
+        android:layout_marginTop="20dp"
+        android:text="Dodaj posiłek" />
+
+    <!-- Lista użytkowników -->
+    <ListView
+        android:id="@+id/meal_listview"
+        android:layout_width="match_parent"
+        android:layout_below="@id/add_button"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+
+

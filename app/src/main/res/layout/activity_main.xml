@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <!-- Nagłówek listy -->
+    <TextView
+        android:id="@+id/user_list_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista użytkowników"
+        android:padding="16dp"
+        android:textSize="20sp" />
+
+    <!-- Lista użytkowników -->
+    <ListView
+        android:id="@+id/user_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Przycisk dodawania nowego użytkownika -->
+    <Button
+        android:id="@+id/add_user_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj użytkownika"
+        android:padding="16dp" />
+
+
+</LinearLayout>
