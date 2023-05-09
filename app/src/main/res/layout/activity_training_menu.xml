@@ -28,7 +28,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:text="Full Body Workout" />
+            android:text="Push-Pull-Legs" />
 
         <Button
             android:id="@+id/button3"
@@ -37,7 +37,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:text="Full Body Workout" />
+            android:text="Trening z podziałem na partie mięśniowe" />
 
         <Button
             android:id="@+id/button4"

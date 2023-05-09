@@ -6,7 +6,7 @@
     android:id="@+id/parent_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Training.`FBW-A`">
+    tools:context=".Training.FBW.FBW_A">
 
   <TextView
       android:id="@+id/list_title"
@@ -281,6 +281,10 @@
         android:visibility="gone" />
 
   </LinearLayout>
+
+
+
+
 
 
 

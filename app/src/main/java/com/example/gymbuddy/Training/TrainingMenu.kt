@@ -7,16 +7,25 @@ import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AlertDialog
 import com.example.gymbuddy.R
+import com.example.gymbuddy.Training.FBW.FBWMenu
+import com.example.gymbuddy.Training.PushPullLegs.PushPullLegsMenu
 
 class TrainingMenu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_training_menu)
 
-        val TreningButton = findViewById<Button>(R.id.button1)
+        val FBW = findViewById<Button>(R.id.button1)
 
-        TreningButton.setOnClickListener {
-            val intent = Intent(this, FBW_A::class.java)
+        FBW.setOnClickListener {
+            val intent = Intent(this, FBWMenu::class.java)
+            startActivity(intent)
+        }
+
+        val PushPullLegs = findViewById<Button>(R.id.button2)
+
+        PushPullLegs.setOnClickListener {
+            val intent = Intent(this, PushPullLegsMenu::class.java)
             startActivity(intent)
         }
 

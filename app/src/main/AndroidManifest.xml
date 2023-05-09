@@ -12,7 +12,25 @@
         android:theme="@style/Theme.GymBuddy"
         tools:targetApi="31">
         <activity
-            android:name=".Training.FBW_A"
+            android:name=".Training.PushPullLegs.Legs"
+            android:exported="false" />
+        <activity
+            android:name=".Training.PushPullLegs.Pull"
+            android:exported="false" />
+        <activity
+            android:name=".Training.PushPullLegs.Push"
+            android:exported="false" />
+        <activity
+            android:name=".Training.PushPullLegs.PushPullLegsMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Training.FBW.FBWMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Training.FBW.FBW_B"
+            android:exported="false" />
+        <activity
+            android:name=".Training.FBW.FBW_A"
             android:exported="false" />
         <activity
             android:name=".Training.TrainingMenu"
