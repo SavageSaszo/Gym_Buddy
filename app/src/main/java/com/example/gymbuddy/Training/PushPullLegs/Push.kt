@@ -1,4 +1,4 @@
-package com.example.gymbuddy.Training
+package com.example.gymbuddy.Training.PushPullLegs
 
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
@@ -10,7 +10,7 @@ import android.widget.SeekBar
 import android.widget.TextView
 import com.example.gymbuddy.R
 
-class FBW_A : AppCompatActivity() {
+class Push : AppCompatActivity() {
     private lateinit var seekBar: SeekBar
     private lateinit var textView: TextView
     private lateinit var startButton: Button
@@ -21,7 +21,7 @@ class FBW_A : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_fbw)
+        setContentView(R.layout.activity_push)
 
         seekBar = findViewById(R.id.seekBar)
         textView = findViewById(R.id.textView)
@@ -76,6 +76,8 @@ class FBW_A : AppCompatActivity() {
         }
 
         mediaPlayer = MediaPlayer.create(this, R.raw.happy_wheels_finish_sf)
+
+
     }
 
     private fun playNotificationSound() {
