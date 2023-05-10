@@ -12,6 +12,21 @@
         android:theme="@style/Theme.GymBuddy"
         tools:targetApi="31">
         <activity
+            android:name=".Training.Split.BellyAndShoulders"
+            android:exported="false" />
+        <activity
+            android:name=".Training.Split.Legs2"
+            android:exported="false" />
+        <activity
+            android:name=".Training.Split.BackAndBiceps"
+            android:exported="false" />
+        <activity
+            android:name=".Training.Split.ChestAndTriceps"
+            android:exported="false" />
+        <activity
+            android:name=".Training.Split.SplitMenu"
+            android:exported="false" />
+        <activity
             android:name=".Training.PushPullLegs.Legs"
             android:exported="false" />
         <activity
