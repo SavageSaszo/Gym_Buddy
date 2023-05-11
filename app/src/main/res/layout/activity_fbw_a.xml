@@ -19,6 +19,8 @@
       android:padding="16dp"
       tools:ignore="MissingConstraints" />
 
+
+
   <!-- Pierwsze ćwiczenie -->
   <LinearLayout
       android:layout_width="match_parent"
@@ -28,12 +30,12 @@
       android:padding="1dp">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textSize="17sp"
         android:layout_marginTop="10dp"
-        android:layout_weight="2"
-        android:text="Ćwiczenie 1" />
+        android:layout_weight="7"
+        android:text=" Przysiad ze sztangą z tyłu" />
 
     <TextView
         android:id="@+id/exercise_1_series_reps"
@@ -41,9 +43,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textSize="17sp"
-        android:layout_weight="5"
+        android:layout_weight="2"
         android:gravity="start"
-        android:text="Seria 1, 12 powtórzeń" />
+        android:text=" 6 x 6" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -64,22 +66,22 @@
       android:padding="1dp">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textSize="17sp"
         android:layout_marginTop="10dp"
-        android:layout_weight="2"
-        android:text="Ćwiczenie 2" />
+        android:layout_weight="7"
+        android:text=" Wyciskanie stojąc " />
 
     <TextView
         android:id="@+id/exercise_2_series_reps"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="17sp"
         android:layout_marginTop="10dp"
-        android:layout_weight="5"
+        android:textSize="17sp"
+        android:layout_weight="2"
         android:gravity="start"
-        android:text="Seria 1, 10 powtórzeń" />
+        android:text=" 5 x 8" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -100,22 +102,22 @@
       android:padding="1dp">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:textSize="17sp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:textSize="17sp"
         android:layout_marginTop="10dp"
-        android:layout_weight="2"
-        android:text="Ćwiczenie 3" />
+        android:layout_weight="7"
+        android:text=" Hip thrust " />
 
     <TextView
         android:id="@+id/exercise_3_series_reps"
-        android:textSize="17sp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_weight="5"
+        android:textSize="17sp"
+        android:layout_weight="2"
         android:gravity="start"
-        android:text="Seria 1, 10 powtórzeń" />
+        android:text=" 4 x 12" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -136,22 +138,22 @@
       android:padding="1dp">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:textSize="17sp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:textSize="17sp"
         android:layout_marginTop="10dp"
-        android:layout_weight="2"
-        android:text="Ćwiczenie 4" />
+        android:layout_weight="7"
+        android:text=" Wykroki z hantlami" />
 
     <TextView
         android:id="@+id/exercise_4_series_reps"
-        android:textSize="17sp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_weight="5"
+        android:textSize="17sp"
+        android:layout_weight="2"
         android:gravity="start"
-        android:text="Seria 1, 10 powtórzeń" />
+        android:text=" 3 x 12" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -172,22 +174,22 @@
       android:padding="1dp">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_weight="2"
         android:textSize="17sp"
-        android:text="Ćwiczenie 5" />
+        android:layout_marginTop="10dp"
+        android:layout_weight="7"
+        android:text=" Podciąganie na drążku " />
 
     <TextView
         android:id="@+id/exercise_5_series_reps"
-        android:textSize="17sp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_weight="5"
+        android:textSize="17sp"
+        android:layout_weight="2"
         android:gravity="start"
-        android:text="Seria 1, 10 powtórzeń" />
+        android:text=" 4 x 8" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -208,22 +210,22 @@
       android:padding="1dp">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_weight="2"
         android:textSize="17sp"
-        android:text="Ćwiczenie 6" />
+        android:layout_marginTop="10dp"
+        android:layout_weight="7"
+        android:text=" Pallof press " />
 
     <TextView
         android:id="@+id/exercise_6_series_reps"
-        android:textSize="17sp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_weight="5"
+        android:textSize="17sp"
+        android:layout_weight="2"
         android:gravity="start"
-        android:text="Seria 1, 10 powtórzeń" />
+        android:text=" 3 x 12" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -236,11 +238,47 @@
   </LinearLayout>
 
   <!-- Siódme ćwiczenie -->
+
   <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:orientation="horizontal"
-      android:layout_marginTop="420dp"
+      android:layout_marginTop="370dp"
+      android:padding="1dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="7"
+        android:text=" Spacer farmera " />
+
+    <TextView
+        android:id="@+id/exercise_7_series_reps"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:layout_weight="2"
+        android:gravity="start"
+        android:text=" 5 x100m" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal"
+      android:layout_marginTop="470dp"
       android:padding="1dp">
 
     <TextView
@@ -254,6 +292,7 @@
 
     <SeekBar
         android:id="@+id/seekBar"
+        android:layout_marginTop="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:max="30" />
@@ -264,7 +303,7 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:orientation="horizontal"
-      android:layout_marginTop="500dp"
+      android:layout_marginTop="550dp"
       android:padding="1dp">
 
     <Button
