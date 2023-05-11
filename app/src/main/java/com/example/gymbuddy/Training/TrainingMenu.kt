@@ -9,6 +9,7 @@ import androidx.appcompat.app.AlertDialog
 import com.example.gymbuddy.R
 import com.example.gymbuddy.Training.FBW.FBWMenu
 import com.example.gymbuddy.Training.PushPullLegs.PushPullLegsMenu
+import com.example.gymbuddy.Training.Split.SplitMenu
 
 class TrainingMenu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +27,13 @@ class TrainingMenu : AppCompatActivity() {
 
         PushPullLegs.setOnClickListener {
             val intent = Intent(this, PushPullLegsMenu::class.java)
+            startActivity(intent)
+        }
+
+        val split = findViewById<Button>(R.id.button3)
+
+        split.setOnClickListener {
+            val intent = Intent(this, SplitMenu::class.java)
             startActivity(intent)
         }
 

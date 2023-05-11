@@ -37,16 +37,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
-            android:text="Trening z podziałem na partie mięśniowe" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="280dp"
-            android:layout_height="10dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1"
-            android:text="Full Body Workout" />
+            android:text="Split" />
 
 
     </LinearLayout>
@@ -86,15 +77,7 @@
             android:layout_weight="1"
             android:background="#FFFFFF"
             app:srcCompat="@android:drawable/ic_menu_help" />
-        <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="80dp"
-            android:layout_height="10dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1"
-            android:background="#FFFFFF"
-            app:srcCompat="@android:drawable/ic_menu_help" />
+
 
     </LinearLayout>
 
