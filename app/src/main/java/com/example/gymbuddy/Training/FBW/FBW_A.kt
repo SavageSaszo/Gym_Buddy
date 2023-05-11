@@ -7,8 +7,10 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.View
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.SeekBar
 import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
 import com.example.gymbuddy.R
 import com.example.gymbuddy.Training.TrainingMenu
 
@@ -20,6 +22,8 @@ class FBW_A : AppCompatActivity() {
     private lateinit var countDownTimer: CountDownTimer
     private var selectedMinutes: Int = 0
     private lateinit var mediaPlayer: MediaPlayer
+
+    private var dialog: AlertDialog? = null // Dodana deklaracja zmiennej dialog
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -79,7 +83,33 @@ class FBW_A : AppCompatActivity() {
 
         mediaPlayer = MediaPlayer.create(this, R.raw.happy_wheels_finish_sf)
 
+        val imageView1 = findViewById<ImageView>(R.id.imageView1)
+        imageView1.setOnClickListener {
+            showImageDialog()
+        }
 
+
+    }
+
+    private fun showImageDialog() {
+        val dialogView = layoutInflater.inflate(R.layout.dialog_layout, null)
+        val imageView = dialogView.findViewById<ImageView>(R.id.dialogImageView)
+        imageView.setImageResource(R.drawable.zdjecie) // Ustawienie zasobu obrazu
+
+        val textView = dialogView.findViewById<TextView>(R.id.dialogTextView)
+        textView.text = "Opis zdjęcia"
+
+        val closeButton = dialogView.findViewById<Button>(R.id.dialogCloseButton)
+        closeButton.setOnClickListener {
+            dialog?.dismiss()
+        }
+
+        val dialogBuilder = AlertDialog.Builder(this)
+            .setView(dialogView)
+            .setTitle("Zdjęcie")
+
+        dialog = dialogBuilder.create()
+        dialog?.show()
     }
 
     private fun playNotificationSound() {
