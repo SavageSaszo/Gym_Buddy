@@ -8,6 +8,7 @@ import android.os.CountDownTimer
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.ScrollView
 import android.widget.SeekBar
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
@@ -165,7 +166,7 @@ class FBW_A : AppCompatActivity() {
         }
 
         val imageView6 = findViewById<ImageView>(R.id.imageView6)
-        val imageResource6 = R.drawable.podciaganie // Zasób obrazu
+        val imageResource6 = R.drawable.test // Zasób obrazu
         val imageDescription6 = ""
         val imageTitle6 = "Pall of press"
 
@@ -195,7 +196,8 @@ class FBW_A : AppCompatActivity() {
         val imageView = dialogView.findViewById<ImageView>(R.id.dialogImageView)
         imageView.setImageResource(imageResource) // Ustawienie zasobu obrazu
 
-        val textView = dialogView.findViewById<TextView>(R.id.dialogTextView)
+        val scrollView = dialogView.findViewById<ScrollView>(R.id.dialogScrollView)
+        val textView = scrollView.findViewById<TextView>(R.id.dialogTextView)
         textView.text = imageDescription // Ustawienie opisu zdjęcia
 
         val closeButton = dialogView.findViewById<Button>(R.id.dialogCloseButton)

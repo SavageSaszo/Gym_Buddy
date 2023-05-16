@@ -8,6 +8,7 @@ import android.os.CountDownTimer
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.ScrollView
 import android.widget.SeekBar
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
@@ -136,7 +137,7 @@ class FBW_B : AppCompatActivity() {
             showImageDialog(imageResource3, imageDescription3, imageTitle3)
         }
 
-        val imageView4 = findViewById<ImageView>(R.id.imageView3)
+        val imageView4 = findViewById<ImageView>(R.id.imageView4)
         val imageResource4 = R.drawable.wioslowanie_sztanga // Zasób obrazu
         val imageDescription4 = "Stań prosto, stopy lekko szerzej niż szerokość barków." +
                 " Trzymaj sztangę na wyciągniętych ramionach, uchwytem nachwytem," +
@@ -195,16 +196,13 @@ class FBW_B : AppCompatActivity() {
 
         val imageView7 = findViewById<ImageView>(R.id.imageView7)
         val imageResource7 = R.drawable.spacer_farmera_jednoracz // Zasób obrazu
-        val imageDescription7 = "Połóż się na boku, podpierając się na przedramieniu," +
-                " ustawionym pod ramieniem, tak aby łokieć znajdował się pod linią barków." +
-                " Nogi powinny być wyprostowane i złączone. Utwórz linię prostą od głowy do stóp," +
-                " napinając mięśnie brzucha i pośladków. Unieś biodra, utrzymując napięcie" +
-                " w mięśniach korpusu. Trzymaj tę pozycję, skupiając się na utrzymaniu stabilności" +
-                " i napinaniu mięśni bocznych brzucha. Pamiętaj o równomiernym oddychaniu i" +
-                " utrzymaniu prawidłowej postawy ciała przez cały czas trwania ćwiczenia." +
-                " Wytrzymaj w tej pozycji przez określony czas lub dopóki możesz utrzymać" +
-                " prawidłową formę. Następnie powtórz na drugim boku. Kontynuuj trening," +
-                " naprzemiennie pracując po obu stronach."
+        val imageDescription7 = "Spacer farmera hantlem jednorącz to efektywne ćwiczenie siłowe" +
+                " angażujące wiele mięśni. Weź hantel jednorącz, trzymając go w jednej ręce." +
+                " Wyprostuj plecy, utrzymując naturalną krzywiznę kręgosłupa. Rozpocznij" +
+                " spacer, wykonując kroki i jednocześnie unosząc hantel do góry. Skup się" +
+                " na utrzymaniu stabilności i równowagi. To ćwiczenie wzmacnia ramiona," +
+                " barki, mięśnie rdzenia i dolną część ciała. Dostosuj obciążenie do swojej" +
+                " kondycji fizycznej i wykonuj regularnie, by osiągnąć najlepsze rezultaty."
         val imageTitle7 = "Spacer farmera z hantlem/ciężarem"
 
         imageView7.setOnClickListener {
@@ -217,7 +215,8 @@ class FBW_B : AppCompatActivity() {
         val imageView = dialogView.findViewById<ImageView>(R.id.dialogImageView)
         imageView.setImageResource(imageResource) // Ustawienie zasobu obrazu
 
-        val textView = dialogView.findViewById<TextView>(R.id.dialogTextView)
+        val scrollView = dialogView.findViewById<ScrollView>(R.id.dialogScrollView)
+        val textView = scrollView.findViewById<TextView>(R.id.dialogTextView)
         textView.text = imageDescription // Ustawienie opisu zdjęcia
 
         val closeButton = dialogView.findViewById<Button>(R.id.dialogCloseButton)
