@@ -103,7 +103,7 @@ class FBW_A : AppCompatActivity() {
         }
 
         val imageView2 = findViewById<ImageView>(R.id.imageView2)
-        val imageResource2 = R.drawable.wyciskanie_stojac // Zasób obrazu
+        val imageResource2 = R.drawable.przysiad_przod // Zasób obrazu
         val imageDescription2 = "Stój prosto, stopy szerzej niż barki." +
                 " Umieść sztangę na wysokości klatki piersiowej." +
                 " Chwyć sztangę nieco szerzej niż barki." +
@@ -149,7 +149,7 @@ class FBW_A : AppCompatActivity() {
         }
 
         val imageView5 = findViewById<ImageView>(R.id.imageView5)
-        val imageResource5 = R.drawable.podciaganie // Zasób obrazu
+        val imageResource5 = R.drawable.podciaganie_nachwytem // Zasób obrazu
         val imageDescription5 = "Stan na podłożu, stopy na szerokość barków." +
                 " Wyprostuj ramiona i sięgnij nachwytem za drążek, trzymając go" +
                 " nieco szerzej niż szerokość barków. Rozpocznij ruch, zginając łokcie" +
@@ -166,7 +166,7 @@ class FBW_A : AppCompatActivity() {
         }
 
         val imageView6 = findViewById<ImageView>(R.id.imageView6)
-        val imageResource6 = R.drawable.test // Zasób obrazu
+        val imageResource6 = R.drawable.pull_face // Zasób obrazu
         val imageDescription6 = ""
         val imageTitle6 = "Pall of press"
 

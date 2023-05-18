@@ -33,7 +33,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text="Ćwiczenie 1" />
+            android:text="Wyciskanie sztangi na ławce płaskiej" />
 
         <TextView
             android:id="@+id/exercise_1_series_reps"
@@ -43,7 +43,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 1 x 12" />
+            android:text=" 5 x 7" />
 
         <ImageView
             android:id="@+id/imageView1"
@@ -69,7 +69,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text="Ćwiczenie 2" />
+            android:text=" Pompki na poręczach/dipy" />
 
         <TextView
             android:id="@+id/exercise_2_series_reps"
@@ -78,8 +78,7 @@
             android:layout_marginTop="10dp"
             android:textSize="17sp"
             android:layout_weight="2"
-            android:gravity="start"
-            android:text=" 1 x 12" />
+            android:gravity="start"/>
 
         <ImageView
             android:id="@+id/imageView2"

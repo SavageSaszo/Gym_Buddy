@@ -102,7 +102,7 @@ class FBW_B : AppCompatActivity() {
         }
 
         val imageView2 = findViewById<ImageView>(R.id.imageView2)
-        val imageResource2 = R.drawable.wyciskanie_na_lawce // Zasób obrazu
+        val imageResource2 = R.drawable.wyciskanie_lawka_plaska // Zasób obrazu
         val imageDescription2 = "Połóż się na ławce płaskiej, trzymając sztangę na szerokość barków." +
                 " Umieść stopy płasko na podłodze, mocno zakotwiczając je dla stabilności." +
                 " Chwyć sztangę uchwytem nachwytem, ręce nieco szersze niż szerokość barków." +
@@ -157,7 +157,7 @@ class FBW_B : AppCompatActivity() {
         }
 
         val imageView5 = findViewById<ImageView>(R.id.imageView5)
-        val imageResource5 = R.drawable.bulgarskie_przysiady // Zasób obrazu
+        val imageResource5 = R.drawable.wykroki_bulgarskie // Zasób obrazu
         val imageDescription5 = "Stań w pozycji, mając jedną stopę opartą na platformie za sobą," +
                 " a drugą stopę ustawioną około dwóch długości nóg przed sobą. Trzymaj sztangę" +
                 " na wysokości klatki piersiowej, trzymając ją na szerokość barków. Wdychając" +
@@ -177,7 +177,7 @@ class FBW_B : AppCompatActivity() {
         }
 
         val imageView6 = findViewById<ImageView>(R.id.imageView6)
-        val imageResource6 = R.drawable.planki_bokiem // Zasób obrazu
+        val imageResource6 = R.drawable.plank_boczny // Zasób obrazu
         val imageDescription6 = "Połóż się na boku, podpierając się na przedramieniu," +
                 " ustawionym pod ramieniem, tak aby łokieć znajdował się pod linią barków." +
                 " Nogi powinny być wyprostowane i złączone. Utwórz linię prostą od głowy do stóp," +
@@ -195,7 +195,7 @@ class FBW_B : AppCompatActivity() {
         }
 
         val imageView7 = findViewById<ImageView>(R.id.imageView7)
-        val imageResource7 = R.drawable.spacer_farmera_jednoracz // Zasób obrazu
+        val imageResource7 = R.drawable.spacer_farmera // Zasób obrazu
         val imageDescription7 = "Spacer farmera hantlem jednorącz to efektywne ćwiczenie siłowe" +
                 " angażujące wiele mięśni. Weź hantel jednorącz, trzymając go w jednej ręce." +
                 " Wyprostuj plecy, utrzymując naturalną krzywiznę kręgosłupa. Rozpocznij" +
