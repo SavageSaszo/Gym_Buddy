@@ -126,7 +126,7 @@ class Pull : AppCompatActivity() {
         }
 
         val imageView3 = findViewById<ImageView>(R.id.imageView3)
-        val imageResource3 = R.drawable.wioslowanie_sztangielkami // Zasób obrazu
+        val imageResource3 = R.drawable.wioslowanie_jednoracz // Zasób obrazu
         val imageDescription3 = "Weź hantel w jedną rękę i stój w lekkim rozkroku z lekko zgiętymi kolanami. Wyprostuj plecy i pochyl tułów do przodu, tak aby był równoległy do podłogi. Wyciągnij wolną rękę w kierunku podłogi, aby utrzymać równowagę.\n" +
                 "\n" +
                 "Wyciągnij hantel w ręce trzymanej na wprost, z łokciem skierowanym na zewnątrz. Zacznij wiosłować, przyciągając łokieć do tyłu, a hantel w górę w kierunku boku tułowia.\n" +
@@ -156,7 +156,7 @@ class Pull : AppCompatActivity() {
         }
 
         val imageView5 = findViewById<ImageView>(R.id.imageView5)
-        val imageResource5 = R.drawable.pull_face // Zasób obrazu
+        val imageResource5 = R.drawable.bark_tylni // Zasób obrazu
         val imageDescription5 = "Stanij wzdłuż maszyny lub uchwytu, trzymając go na wysokości klatki piersiowej, nachwytem (dłonie skierowane na zewnątrz). Stopy ustaw szerokość barków, lekko zgięte w kolanach. Pochyl tułów do przodu, zachowując prostą i wyprostowaną postawę. Kolana powinny być lekko zgięte, a plecy równoległe do podłogi.\n" +
                 "\n" +
                 "Zaczynając od rozciągniętej pozycji ramion, przyciągnij uchwyt w stronę twarzy, unosząc łokcie na wysokość policzków. Skoncentruj się na skurczeniu mięśni między łopatkami i wyciąganiu łokci do tyłu.\n" +

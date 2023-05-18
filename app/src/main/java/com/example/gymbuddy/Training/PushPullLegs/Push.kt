@@ -102,7 +102,7 @@ class Push : AppCompatActivity() {
                 " prawidłowej technice i pełnym zakresie ruchu. Pamiętaj również" +
                 " o odpowiednim oddychaniu, wdychając powietrze podczas opuszczania" +
                 " sztangi i wydychając je podczas jej unoszenia."
-        val imageTitle1 = "Przysiady ze sztangą na plecach"
+        val imageTitle1 = "Wyciskanie sztangi na ławce płaskiej"
 
         imageView1.setOnClickListener {
             showImageDialog(imageResource1, imageDescription1, imageTitle1)
