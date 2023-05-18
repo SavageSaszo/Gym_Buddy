@@ -167,7 +167,18 @@ class FBW_A : AppCompatActivity() {
 
         val imageView6 = findViewById<ImageView>(R.id.imageView6)
         val imageResource6 = R.drawable.pull_face // Zasób obrazu
-        val imageDescription6 = ""
+        val imageDescription6 = "Cwiczenie pall of press polega na naciąganiu gumy i trzymaniu" +
+                " jej w wyprostowanych rękach na przeciwko klatki piersiowej, a następnie" +
+                " przyciąganiu rąk do klatki piersiowej i prostowaniu ich. Aby to zrobić," +
+                " rozstaw stopy na szerokość bioder, lekko zgiń kolana i trzymaj gumę szerzej" +
+                " od szerokości ramion na wysokości klatki piersiowej. Następnie zacznij" +
+                " naciągać gumę, rozciągając ją na boki, utrzymując wyprostowane ręce" +
+                " skierowane w stronę klatki piersiowej. Po osiągnięciu maksymalnego " +
+                "rozciągnięcia gumy, przyciągnij ręce do klatki piersiowej, napinając" +
+                " mięśnie klatki piersiowej i ramion. Następnie powoli prostuj ręce," +
+                " jednocześnie kontrolując napięcie gumy. Powtórz ten ruch przez określoną" +
+                " liczbę powtórzeń lub przez zdefiniowany czas. Pamiętaj o utrzymaniu" +
+                " prawidłowej postawy i kontrolowanym wykonywaniu ćwiczenia."
         val imageTitle6 = "Pall of press"
 
         imageView6.setOnClickListener {
