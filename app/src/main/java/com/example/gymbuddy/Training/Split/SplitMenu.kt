@@ -38,5 +38,6 @@ class SplitMenu : AppCompatActivity() {
             val intent = Intent(this, Legs2::class.java)
             startActivity(intent)
         }
+
     }
 }

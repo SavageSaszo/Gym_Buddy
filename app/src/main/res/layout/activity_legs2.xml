@@ -12,7 +12,7 @@
         android:id="@+id/list_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nogi"
+        android:text="Legs"
         android:textSize="24sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -33,7 +33,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text=" Plank" />
+            android:text=" Prostowanie nóg na maszynie" />
 
         <TextView
             android:id="@+id/exercise_1_series_reps"
@@ -43,7 +43,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 5×60sek" />
+            android:text=" 3 × 15" />
 
         <ImageView
             android:id="@+id/imageView1"
@@ -69,7 +69,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text=" Wspięcia na palce siedząc/stojąc" />
+            android:text=" Wykroki ze sztangielkami " />
 
         <TextView
             android:id="@+id/exercise_2_series_reps"
@@ -79,7 +79,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 3 × 20" />
+            android:text=" 4 × 8" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -105,7 +105,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text=" Przysiady ze sztangą z tyłu" />
+            android:text=" Przysiady ze sztangą z przodu" />
 
         <TextView
             android:id="@+id/exercise_3_series_reps"
@@ -115,7 +115,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 5 x 6" />
+            android:text=" 4 x 7" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -141,7 +141,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text=" Hip thrust" />
+            android:text=" Wypychanie nogami na suwnicy" />
 
         <TextView
             android:id="@+id/exercise_4_series_reps"
@@ -177,7 +177,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text=" Przysiady bułgarskie" />
+            android:text=" Wspięcia na palcach stojąc na maszynie" />
 
         <TextView
             android:id="@+id/exercise_5_series_reps"
@@ -213,7 +213,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text=" Dzień dobry ze sztangą" />
+            android:text=" Uginanie nóg na maszynie leżąc" />
 
         <TextView
             android:id="@+id/exercise_6_series_reps"
@@ -250,7 +250,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text="Uginanie nóg w leżeniu na maszynie" />
+            android:text=" Martwy ciąg na na lekko ugiętych nogach" />
 
         <TextView
             android:id="@+id/exercise_7_series_reps"
@@ -260,7 +260,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 3 x 12" />
+            android:text=" 4 x 7" />
 
         <ImageView
             android:id="@+id/imageView7"

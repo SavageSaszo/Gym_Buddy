@@ -83,13 +83,21 @@ class Legs : AppCompatActivity() {
 
         val imageView1 = findViewById<ImageView>(R.id.imageView1)
         val imageResource1 = R.drawable.przysiad_tyl // Zasób obrazu
-        val imageDescription1 = "Stań prosto, z szerokością barków, a sztangę umieść na górnej części pleców, trzymając ją stabilnie na ramionach. Trzymaj sztangę na wysokości karku, z dłońmi skierowanymi do przodu. Zachowaj wyprostowaną postawę, z łopatkami ściągniętymi do siebie i brzuchem napiętym.\n" +
+        val imageDescription1 = "Przysiady ze sztangą na plecach to skuteczne ćwiczenie, które angażuje głównie mięśnie ud, pośladków, mięśnie czworogłowe uda oraz mięśnie korpusu. Oto opis techniki wykonania tego ćwiczenia:\n" +
                 "\n" +
-                "Rozpocznij ruch, schylając kolana i biodra, jakbyś siadał na krześle, utrzymując równowagę i kontrolując opad. Unikaj przechylenia tułowia do przodu i utrzymuj stabilność pleców. Głowa powinna być wyprostowana, a wzrok skierowany przed siebie.\n" +
+                "Stanij prosto, trzymając sztangę na plecach na wysokości górnej części mięśni grzbietowych. Sztanga powinna być stabilnie umieszczona na karku, trzymając ją za chwytak nachwytem (dłonie skierowane na zewnątrz) na odpowiedniej szerokości.\n" +
                 "\n" +
-                "Kontynuuj ruch, aż uda będą równoległe do podłogi, lub do momentu, gdy osiągniesz pełne zgięcie kolan. Pamiętaj, aby utrzymać stabilność i kontrolować ruch w dolnym punkcie przysiadu.\n" +
+                "Rozstaw nogi na szerokość nieco większą niż szerokość barków. Unieś klatkę piersiową i zegnij lekko w pasie. To jest pozycja wyjściowa.\n" +
                 "\n" +
-                "Następnie, napięciem mięśni nóg, wyprostuj kolana i biodra, unosząc się w górę, powracając do wyjściowej pozycji. Kontroluj ruch i unikaj zbyt gwałtownego wznoszenia się."
+                "Zginając w kolanach i biodrach, zacznij opuszczać ciało w dół, jakbyś chciał usiąść na niewidzialnym krześle. Pamiętaj, aby utrzymać stabilną postawę, patrząc przed siebie, a nie w dół.\n" +
+                "\n" +
+                "Kontynuuj opuszczanie się, dopóki uda nie będą równoległe do podłogi lub nie osiągniesz dogodnego zakresu ruchu. W tym momencie poczuj napięcie w mięśniach ud i pośladków.\n" +
+                "\n" +
+                "Od tego punktu zacznij się prostować, unosząc się do góry, powracając do pozycji wyjściowej. Pamiętaj o utrzymaniu równomiernego i kontrolowanego ruchu.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wykonywania przysiadów ze sztangą na plecach, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i skupieniu na mięśniach ud, pośladków i czworogłowych uda. "
         val imageTitle1 = "Przysiad ze sztangą na plecach"
 
         imageView1.setOnClickListener {
@@ -98,17 +106,21 @@ class Legs : AppCompatActivity() {
 
         val imageView2 = findViewById<ImageView>(R.id.imageView2)
         val imageResource2 = R.drawable.wykroki_bulgarskie // Zasób obrazu
-        val imageDescription2 = "Stanij przed ławką lub inną stabilną powierzchnią. Postaw jedną stopę na ławce tak, aby przednia część stopy była na niej oparta, a tył stopy był uniesiony. Drugą stopę postaw na podłodze, zachowując lekkie zgięcie w kolanie.\n" +
+        val imageDescription2 = "Wykroki bułgarskie to ćwiczenie, które angażuje głównie mięśnie ud, pośladków oraz mięśnie przywodziciele i przywodziciele bioder. Oto opis techniki wykonania tego ćwiczenia:\n" +
                 "\n" +
-                "Zachowaj prostą postawę, z ramionami rozluźnionymi wzdłuż ciała. Unieś lekko klatkę piersiową i napiętą brzuchem.\n" +
+                "Przygotuj dwie ławki o podobnej wysokości i postaw je równolegle obok siebie. Możesz również skorzystać z platformy treningowej lub innego stabilnego podłoża.\n" +
                 "\n" +
-                "Rozpocznij ruch, składając biodro i zginając kolano na nodze, która znajduje się na podłodze. Zachowaj równowagę i kontroluj opad. Unikaj przechylenia tułowia do przodu i utrzymuj stabilność pleców. Głowa powinna być wyprostowana, a wzrok skierowany przed siebie.\n" +
+                "Stanij przed jedną z ławek, zwrócony plecami do drugiej ławki. Podnieś jedną stopę i umieść ją na tylnej ławce, tak że stopy są skierowane w dół.\n" +
                 "\n" +
-                "Schodząc na dół, spuść się tak nisko, jak to możliwe, kontrolując ruch i utrzymując napięcie w mięśniach nóg.\n" +
+                "Wyprostuj plecy, utrzymując równowagę, i rozpocznij ruch zginania nóg w kolanach. Zginij nogę przodującą w kolanie i opuść się w dół, aż kolano tylniej nogi prawie dotknie podłoża.\n" +
                 "\n" +
-                "Następnie, napięciem mięśni nóg, wyprostuj kolano i biodro, unosząc się w górę, wracając do wyjściowej pozycji. Kontroluj ruch i unikaj zbyt gwałtownego wznoszenia się.\n" +
+                "Pamiętaj, aby utrzymać stabilną postawę i nie zginaj się w pasie. Twój korpus powinien być wyprostowany, a klatka piersiowa uniesiona.\n" +
                 "\n" +
-                "Wykonuj przysiady bułgarskie w kontrolowany sposób, skupiając się na prawidłowej technice i pełnym zakresie ruchu."
+                "Naciskaj na piętę przodującej nogi, aby wrócić do pozycji wyjściowej, unosząc się do góry. Unikaj wykorzystywania siły z tylniej nogi, skupiając się na mięśniach przodującej nogi.\n" +
+                "\n" +
+                "Powtórz ćwiczenie dla jednej nogi przez zaleconą liczbę powtórzeń, a następnie wykonaj je dla drugiej nogi.\n" +
+                "\n" +
+                "Podczas wykonywania wykroków bułgarskich, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i skupieniu na mięśniach ud, pośladków oraz mięśniach przywodziciele i przywodziciele bioder."
         val imageTitle2 = "Przysiad bułgarski"
 
         imageView2.setOnClickListener {
@@ -117,13 +129,23 @@ class Legs : AppCompatActivity() {
 
         val imageView3 = findViewById<ImageView>(R.id.imageView3)
         val imageResource3 = R.drawable.hip_thrust // Zasób obrazu
-        val imageDescription3 = "Usiądź na podłodze, opierając plecy o ławkę, tak aby łopatki miały kontakt z jej górną częścią. Zegnij kolana i postaw stopy płasko na podłodze, w odległości około szerokości barków. Trzymaj ręce wzdłuż ciała lub skrzyżowane na klatce piersiowej.\n" +
+        val imageDescription3 = "Hip thrust to ćwiczenie, które skupia się głównie na mięśniach pośladkowych, ale również angażuje mięśnie czworogłowe uda oraz mięśnie korpusu. Oto opis techniki wykonania tego ćwiczenia:\n" +
                 "\n" +
-                "W tym położeniu, napięciem mięśni pośladków i brzucha, unoszę biodra w górę, jednocześnie wypychając łokcie w podłogę i napinając pośladki. W górnym punkcie, utrzymaj napięcie przez chwilę, zanim powoli opuścisz biodra na podłogę, kontrolując ruch.\n" +
+                "Usiądź na ziemi z plecami opartymi o ławkę lub inną stabilną podporę. Upewnij się, że ławka jest ustawiona na wysokości klatki piersiowej.\n" +
                 "\n" +
-                "Podczas wykonywania hip thrust, staraj się utrzymać linię od kolan do ramion prosto. Unikaj przemieszczania się łokci w czasie ruchu. Skup się na napinaniu mięśni pośladków i kontrolowaniu ruchu bioder.\n" +
+                "Złóż nogi w kolanach, stawiając stopy na podłożu w odległości około szerokości bioder. Kiedy uniesiesz biodra, kolana powinny być zgięte pod kątem prostym.\n" +
                 "\n" +
-                "Wykonuj hip thrust w kontrolowany sposób, skupiając się na prawidłowej technice i pełnym zakresie ruchu."
+                "Trzymając sztangę na biodrach, tuż przed kośćmi biodrowymi, złap ją obiema rękoma z nachwytem (dłonie skierowane na zewnątrz) na odpowiedniej szerokości.\n" +
+                "\n" +
+                "Unieś biodra, naciskając na pięty, aż stworzysz prostą linię od kolan do barków. Napnij pośladki i utrzymuj napięcie w mięśniach pośladkowych przez cały ruch.\n" +
+                "\n" +
+                "W górnej pozycji, kiedy osiągniesz pełne wyprostowanie bioder, zatrzymaj się na chwilę, czując napięcie w mięśniach pośladkowych.\n" +
+                "\n" +
+                "Powoli kontroluj opuszczanie bioder, opuszczając się z powrotem na ziemię, ale nie dotykając tyłkiem podłoża. W kolejnej powtórce kontynuuj ruch unoszenia bioder.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wykonywania hip thrust, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i skupieniu na mięśniach pośladkowych. Utrzymuj stabilną postawę, utrzymuj napięcie mięśni brzucha i pleców oraz kontroluj oddech. "
         val imageTitle3 = " Hip thrust"
 
         imageView3.setOnClickListener {
@@ -147,11 +169,21 @@ class Legs : AppCompatActivity() {
 
         val imageView5 = findViewById<ImageView>(R.id.imageView5)
         val imageResource5 = R.drawable.lydka_stojac // Zasób obrazu
-        val imageDescription5 = "Wspięcia na palce to ćwiczenie skupiające się na wzmacnianiu mięśni łydek oraz stabilizatorów stopy. Aby je wykonać, stan na prostych nogach i stóp o szerokości około barków.\n" +
+        val imageDescription5 = "Wspięcie na palce stojąc to ćwiczenie skupiające się głównie na mięśniach łydek. Oto opis techniki wykonania tego ćwiczenia:\n" +
                 "\n" +
-                "Zaczynając od pozycji stojącej, unieś stopę, unosząc pięty i opierając się na palcach. Skoncentruj się na napięciu mięśni łydek i stabilizacji stopy. Unosząc się jak najwyżej, zatrzymaj się na chwilę, a następnie powoli opuść pięty, wracając do pozycji wyjściowej.\n" +
+                "Stań prosto, trzymając się równowagi. Stopy powinny być ustawione na szerokość barków lub nieco szersze.\n" +
                 "\n" +
-                "Podczas wykonywania wspięć na palce, staraj się utrzymać równowagę i kontrolować ruch. Skup się na napięciu mięśni łydek i unikaj opadania stopy. Możesz również dostosować stopień trudności, wykonując ćwiczenie z obciążeniem, na przykład trzymając hantle w dłoniach."
+                "Włóż pięty na krawędź podłoża, tak aby palce stóp znajdowały się na ziemi. Możesz także skorzystać z podwyższenia, takiego jak klocki treningowe lub platforma ćwiczeniowa.\n" +
+                "\n" +
+                "Zaczynając od pozycji z piętami na podłożu, zegnij kolana i zacznij się wznosić na palcach stóp. Pamiętaj, aby unosić zarówno pięty, jak i palce stóp, aby uzyskać pełne skurcze mięśni łydek.\n" +
+                "\n" +
+                "W górnej pozycji, kiedy jesteś na wznak, zatrzymaj się na chwilę, czując napięcie w mięśniach łydek.\n" +
+                "\n" +
+                "Powoli kontroluj opuszczanie pięt z powrotem na podłoże, rozciągając mięśnie łydek i zachowując kontrolowany ruch.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wykonywania wspięcia na palce stojąc, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i skupieniu na mięśniach łydek. Utrzymuj stabilną postawę, utrzymuj napięcie mięśni korpusu i kontroluj oddech."
         val imageTitle5 = "Wspięcia na palce"
 
         imageView5.setOnClickListener {
@@ -175,15 +207,19 @@ class Legs : AppCompatActivity() {
 
         val imageView7 = findViewById<ImageView>(R.id.imageView7)
         val imageResource7 = R.drawable.plank // Zasób obrazu
-        val imageDescription7 = "Połóż się na podłodze, opierając się na przedramionach i palcach stóp.\n" +
+        val imageDescription7 = "Plank, znany również jako deska, to skuteczne ćwiczenie wzmacniające mięśnie brzucha, mięśnie korpusu oraz mięśnie stabilizujące. Oto opis techniki wykonania tego ćwiczenia:\n" +
                 "\n" +
-                "Upewnij się, że ciało jest wyprostowane, a linia od głowy do stóp jest prosta. Napnij mięśnie brzucha, aby utrzymać stabilność w korpusie. Unikaj opadania bioder lub uniesienia pośladków.\n" +
+                "Połóż się na podłodze na brzuchu. Zegnij łokcie i oprzyj się na przedramionach. Przedramiona powinny być ustawione równolegle do siebie, a łokcie powinny znajdować się bezpośrednio pod barkami.\n" +
                 "\n" +
-                "Trzymaj pozycję plank przez określony czas, zazwyczaj od 30 sekund do 1 minuty lub dłużej, w zależności od twojego poziomu zaawansowania. Pamiętaj, aby utrzymywać równomierne oddychanie podczas trzymania pozycji.\n" +
+                "Wyciągnij nogi do tyłu i unieś ciało, podpierając się na palcach stóp. Palce stóp powinny być skierowane w dół, a ciało powinno tworzyć prostą linię od głowy do pięt.\n" +
                 "\n" +
-                "Ważne jest, aby zachować prawidłową formę i unikać nadmiernego skrzywienia pleców lub unoszenia pośladków. Skup się na utrzymaniu napięcia w mięśniach korpusu przez cały czas trwania ćwiczenia.\n" +
+                "Napnij mięśnie brzucha i pośladków. Utrzymuj napięcie w mięśniach korpusu, unikając zapadania się w dolnej części pleców lub unoszenia bioder.\n" +
                 "\n" +
-                "Plank jest skutecznym ćwiczeniem wzmocnienia mięśni korpusu i stabilizacji."
+                "Trzymaj tę pozycję przez określony czas, zazwyczaj od 20 do 60 sekund, lub według swojej wytrzymałości. Pamiętaj o równomiernym oddychaniu podczas trzymania pozycji.\n" +
+                "\n" +
+                "Powoli opuść się na podłogę, odpocznij przez chwilę i powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wykonywania planka, pamiętaj o utrzymaniu prawidłowej techniki wykonania. Unikaj zapadania się w dolnej części pleców, unoszenia bioder lub wypychania pośladków do góry. Utrzymuj równomierną i kontrolowaną pozycję, utrzymując napięcie w mięśniach brzucha i korpusu. "
         val imageTitle7 = "Plank/Deska"
 
         imageView7.setOnClickListener {

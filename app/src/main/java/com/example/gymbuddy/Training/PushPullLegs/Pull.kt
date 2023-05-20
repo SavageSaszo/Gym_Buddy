@@ -83,27 +83,23 @@ class Pull : AppCompatActivity() {
 
         val imageView1 = findViewById<ImageView>(R.id.imageView1)
         val imageResource1 = R.drawable.martwy_ciag // Zasób obrazu
-        val imageDescription1 = "Martwy ciąg to skuteczne ćwiczenie siłowe, które" +
-                " angażuje głównie mięśnie pleców, pośladków, ud, a także mięśnie" +
-                " nóg i przedramion. Postaw się prosto nad sztangą, stojąc na" +
-                " szerokość barków. Stopy powinny być skierowane lekko na zewnątrz," +
-                " a sztanga powinna być na wysokości połowy stóp. Schyl się w" +
-                " biodrach, trzymając plecy proste i zginając kolana, aż będziesz" +
-                " mógł sięgnąć sztangą. Chwyć sztangę nieco szerzej niż szerokość" +
-                " barków, trzymając ją pewnie i stabilnie. Wypnij klatkę piersiową" +
-                " do przodu i napnij mięśnie pleców. Wdechając powietrze, unieś" +
-                " sztangę, prostując nogi i unosząc tułów, jednocześnie utrzymując" +
-                " napięcie w mięśniach pleców i pośladków. W górnej pozycji" +
-                " sztanga powinna znajdować się w pobliżu bioder, a ciało powinno" +
-                " tworzyć prostą linie od głowy do pięt. Wydechając powietrze," +
-                " opuść sztangę kontrolowanie, schylając się w biodrach i zginając" +
-                " kolana. Powtórz ruch przez określoną liczbę powtórzeń, dbając" +
-                " o prawidłową technikę i zachowując pełny zakres ruchu." +
-                " Pamiętaj o utrzymaniu stabilnej pozycji ciała, unikaj szarpania" +
-                " lub nadmiernego obciążenia kręgosłupa. Po zakończeniu serii" +
-                " ćwiczenia, delikatnie opuść sztangę na ziemię. Wykonuj martwy" +
-                " ciąg w kontrolowany sposób, skupiając się na prawidłowej" +
-                " technice i pełnym zakresie ruchu. "
+        val imageDescription1 = "Martwy ciąg to jedno z podstawowych ćwiczeń siłowych, które angażuje głównie mięśnie pleców, nogi i pośladki. Poniżej znajduje się opis techniki wykonania tego ćwiczenia:\n" +
+                "\n" +
+                "Stań prosto, stopy ustawione na szerokość barków. Sztanga powinna znajdować się na podłodze przed tobą.\n" +
+                "\n" +
+                "Zegnij kolana i biodra, schylając się w pasie, aby sięgnąć po sztangę. Chwyć sztangę nachwytem, z szerokością chwytu nieco większą niż szerokość barków.\n" +
+                "\n" +
+                "Trzymając plecy proste, wyciągnij klatkę piersiową do przodu, unikając zaokrąglania pleców.\n" +
+                "\n" +
+                "Zachowując stabilność i napięcie mięśni brzucha, zacznij podnosić sztangę, unosząc ją w górę. Napinaj mięśnie pleców, nóg i pośladków, aby generować siłę wznoszenia.\n" +
+                "\n" +
+                "Kontynuuj podnoszenie sztangi, aż staniesz w pełnym wyprostowaniu ciała. W tym momencie plecy powinny być proste, a barki wciągnięte.\n" +
+                "\n" +
+                "Zatrzymaj się na chwilę w górnym punkcie, a następnie powoli opuść sztangę, kontrolując ruch i zachowując prawidłową postawę.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Martwy ciąg jest skutecznym ćwiczeniem na rozwinięcie siły i masy mięśniowej, szczególnie mięśni pleców, nóg, pośladków i przedramion."
         val imageTitle1 = "Martwy ciąg"
 
         imageView1.setOnClickListener {
@@ -112,13 +108,21 @@ class Pull : AppCompatActivity() {
 
         val imageView2 = findViewById<ImageView>(R.id.imageView2)
         val imageResource2 = R.drawable.podciaganie_nachwytem // Zasób obrazu
-        val imageDescription2 = "Podciąganie nachwytem wykonuj na drążku, trzymając go nachwytem (dłonie skierowane na zewnątrz). Stań pod drążkiem, trzymając go na szerokość barków. Nogi mogą być wyprostowane lub zgięte w kolanach, w zależności od preferencji i poziomu zaawansowania.\n" +
+        val imageDescription2 = "Podciąganie na drążku nachwytem to skuteczne ćwiczenie, które głównie angażuje mięśnie pleców, ramion oraz mięśnie naramienne. Oto opis techniki wykonania tego ćwiczenia:\n" +
                 "\n" +
-                "Rozpocznij ruch, unosząc ciało w górę, napinając mięśnie pleców i ramion. Skup się na wykorzystaniu siły pleców do podciągania ciała do góry. W trakcie podciągania, staraj się dotknąć drążka klatką piersiową, utrzymując łokcie skierowane na zewnątrz.\n" +
+                "Stanij pod drążkiem, uniesionym na wysokość, na której będziesz w stanie wykonać podciągnięcia. Chwyć drążek nachwytem (dłonie skierowane na zewnątrz) na szerokość nieco większą niż szerokość barków.\n" +
                 "\n" +
-                "Kontynuuj ruch, aż podnosisz się jak najwyżej. Następnie opuść ciało kontrolowanie, wracając do wyjściowej pozycji. Pamiętaj o utrzymaniu napięcia w mięśniach pleców i ramion przez cały ruch.\n" +
+                "Zegnij nogi w kolanach lub podnieś stopy na tzw. \"podwieszkę\", aby uniknąć dotykania ziemi podczas wykonywania podciągnięć.\n" +
                 "\n" +
-                "Wykonuj podciąganie nachwytem w kontrolowany sposób, skupiając się na prawidłowej technice i pełnym zakresie ruchu. Staraj się unikać nadmiernego huśtania ciałem czy wykorzystywania siły momentu bezwładności."
+                "Zegnij łokcie, wyciągnij klatkę piersiową do przodu i unosząc się, ciągnij ciało w górę, doprowadzając brodę do wysokości drążka.\n" +
+                "\n" +
+                "Skup się na skurczu mięśni pleców i ramion. Utrzymuj kontrolowany ruch i unikaj używania impulsu.\n" +
+                "\n" +
+                "Zatrzymaj się na chwilę w górnym punkcie, gdy jesteś w pełnym podciągnięciu, a następnie powoli opuść się, rozciągając mięśnie pleców, aż ramiona będą wyprostowane.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wykonywania podciągania na drążku nachwytem, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i napięciu mięśni."
         val imageTitle2 = "Podciąganie na drążku"
 
         imageView2.setOnClickListener {
@@ -127,13 +131,21 @@ class Pull : AppCompatActivity() {
 
         val imageView3 = findViewById<ImageView>(R.id.imageView3)
         val imageResource3 = R.drawable.wioslowanie_jednoracz // Zasób obrazu
-        val imageDescription3 = "Weź hantel w jedną rękę i stój w lekkim rozkroku z lekko zgiętymi kolanami. Wyprostuj plecy i pochyl tułów do przodu, tak aby był równoległy do podłogi. Wyciągnij wolną rękę w kierunku podłogi, aby utrzymać równowagę.\n" +
+        val imageDescription3 = "Wiosłowanie hantlem w opadzie to skuteczne ćwiczenie, które angażuje głównie mięśnie pleców, ramion, mięśnie naramienne oraz mięśnie środkowej partii pleców. Oto opis techniki wykonania tego ćwiczenia:\n" +
                 "\n" +
-                "Wyciągnij hantel w ręce trzymanej na wprost, z łokciem skierowanym na zewnątrz. Zacznij wiosłować, przyciągając łokieć do tyłu, a hantel w górę w kierunku boku tułowia.\n" +
+                "Ustaw się w pozycji wyjściowej, stojąc z lekkim wygięciem w pasie, kolana lekko ugięte, a górna część ciała skierowana w przód. W jednej ręce trzymaj hantel, a drugą rękę wsparcie o stabilny przedmiot (np. ławka).\n" +
                 "\n" +
-                "Napnij mięśnie pleców, ramion i mięśnie naramienne, kontrolując ruch. Pamiętaj, aby utrzymać stabilność tułowia i unikać nadmiernego wygięcia pleców.\n" +
+                "Nachwyć hantel (dłoń skierowana do ciebie) i pozwól, aby ręka z hantlem opadła swobodnie wzdłuż ciała, z łokciem lekko zgiętym.\n" +
                 "\n" +
-                "Kiedy hantel znajdzie się blisko ciała, zatrzymaj ruch na chwilę, a następnie powoli opuść hantel do wyjściowej pozycji, kontrolując opad. Powtórz ruch dla określonej liczby powtórzeń."
+                "Zegnij łokieć, unosząc hantel w górę w kierunku boku ciała, aż do momentu, gdy łokieć będzie na wysokości tułowia. Skup się na skurczu mięśni pleców i ramion.\n" +
+                "\n" +
+                "Zatrzymaj się na chwilę w górnym punkcie, poczując napięcie w mięśniach pleców i ramion.\n" +
+                "\n" +
+                "Powoli opuść hantel z powrotem do pozycji wyjściowej, kontrolując ruch i rozciągając mięśnie pleców.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń, a następnie wykonaj to samo na drugą stronę, trzymając hantel w drugiej ręce.\n" +
+                "\n" +
+                "Podczas wykonywania wiosłowania hantlem w opadzie, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i skupieniu na skurczu mięśni pleców i ramion. "
         val imageTitle3 = "Wiosłowanie hantlem w opadzie"
 
         imageView3.setOnClickListener {
@@ -142,13 +154,23 @@ class Pull : AppCompatActivity() {
 
         val imageView4 = findViewById<ImageView>(R.id.imageView4)
         val imageResource4 = R.drawable.wioslowanie_sztanga // Zasób obrazu
-        val imageDescription4 = "Stanij przy sztandze, trzymając sztangę na szerokość barków, chwyt nachwytem (dłonie skierowane na zewnątrz). Stopy ustaw szerokość barków, lekko zgięte w kolanach. Pochyl tułów do przodu, zachowując prostą i wyprostowaną postawę. Kolana powinny być lekko zgięte, a plecy równoległe do podłogi.\n" +
+        val imageDescription4 = "Wiosłowanie sztangą to skuteczne ćwiczenie, które angażuje głównie mięśnie pleców, ramion, mięśnie naramienne oraz mięśnie środkowej partii pleców. Oto opis techniki wykonania tego ćwiczenia:\n" +
                 "\n" +
-                "Zaczynając od rozciągniętej pozycji ramion, wyciągnij łokcie do tyłu, przyciągając sztangę w górę w kierunku klatki piersiowej. Napnij mięśnie pleców, ramion, mięśnie naramienne oraz mięśnie przywodzące, kontrolując ruch. Pamiętaj o utrzymaniu stabilności tułowia i unikaniu nadmiernego wygięcia pleców.\n" +
+                "Stanij w lekkim rozkroku, trzymając sztangę przed sobą na szerokość nieco większą niż szerokość barków. Uchwyć sztangę nachwytem (dłonie skierowane na zewnątrz), trzymając ją na wysokości kolan z lekko zgiętymi kolanami.\n" +
                 "\n" +
-                "Kiedy sztanga znajdzie się blisko ciała, zatrzymaj ruch na chwilę, a następnie powoli opuść sztangę w kontrolowany sposób do wyjściowej pozycji, rozciągając mięśnie pleców. Powtórz ruch dla określonej liczby powtórzeń.\n" +
+                "Nachyl tułów w przód, utrzymując prostą pozycję pleców. Klatka piersiowa powinna być wysunięta do przodu, a łopatki lekko złączone.\n" +
                 "\n" +
-                "Wykonuj wiosłowanie sztangą w kontrolowany sposób, skupiając się na prawidłowej technice i pełnym zakresie ruchu. Pamiętaj o równomiernym oddychaniu i unikaj nadmiernego unoszenia ramion."
+                "Zacznij wiosłować, zginając łokcie i unosząc sztangę w stronę klatki piersiowej. Skup się na skurczu mięśni pleców i ramion.\n" +
+                "\n" +
+                "Unosząc łokcie, wyciągnij łopatki do tyłu, wyciągając klatkę piersiową do przodu. Ruch powinien pochodzić głównie z mięśni pleców, a nie z ramion.\n" +
+                "\n" +
+                "Zatrzymaj się na chwilę w górnym punkcie, poczując napięcie w mięśniach pleców.\n" +
+                "\n" +
+                "Powoli opuść sztangę z powrotem do pozycji wyjściowej, kontrolując ruch i rozciągając mięśnie pleców.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wykonywania wiosłowania sztangą, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i skupieniu na skurczu mięśni pleców i ramion. Utrzymuj stabilną postawę, utrzymuj napięcie mięśni brzucha i pleców oraz kontroluj oddech. "
         val imageTitle4 = "Wiosłowanie sztangą"
 
         imageView4.setOnClickListener {
@@ -157,13 +179,21 @@ class Pull : AppCompatActivity() {
 
         val imageView5 = findViewById<ImageView>(R.id.imageView5)
         val imageResource5 = R.drawable.bark_tylni // Zasób obrazu
-        val imageDescription5 = "Stanij wzdłuż maszyny lub uchwytu, trzymając go na wysokości klatki piersiowej, nachwytem (dłonie skierowane na zewnątrz). Stopy ustaw szerokość barków, lekko zgięte w kolanach. Pochyl tułów do przodu, zachowując prostą i wyprostowaną postawę. Kolana powinny być lekko zgięte, a plecy równoległe do podłogi.\n" +
+        val imageDescription5 = "Zamocuj gumy treningowe na odpowiedniej wysokości lub użyj specjalnego uchwytu do gum, który można przymocować do drążka lub innego stabilnego punktu.\n" +
                 "\n" +
-                "Zaczynając od rozciągniętej pozycji ramion, przyciągnij uchwyt w stronę twarzy, unosząc łokcie na wysokość policzków. Skoncentruj się na skurczeniu mięśni między łopatkami i wyciąganiu łokci do tyłu.\n" +
+                "Stanij w pozycji wyjściowej, trzymając gumy treningowe w obu dłoniach. Postaw się na tyle do tyłu, aby utrzymać napięcie w gumach.\n" +
                 "\n" +
-                "Następnie kontrolowanie opuść uchwyt do wyjściowej pozycji, rozciągając mięśnie pleców. Powtórz ruch dla określonej liczby powtórzeń.\n" +
+                "Rozstaw nogi na szerokość barków, lekko zgięte w kolanach. Utrzymuj prostą postawę, wyciągnij klatkę piersiową do przodu i zegnij lekko w pasie.\n" +
                 "\n" +
-                "Wykonuj face pull w kontrolowany sposób, skupiając się na prawidłowej technice i pełnym zakresie ruchu."
+                "Zegnij łokcie i przyciągnij gumy w stronę twarzy, unosząc ramiona na boki. Skoncentruj się na skurczu mięśni ruchowych barku.\n" +
+                "\n" +
+                "W górnej pozycji, kiedy gumy dotkną policzków, zatrzymaj się na chwilę, czując napięcie w mięśniach.\n" +
+                "\n" +
+                "Powoli kontroluj opuszczanie gum z powrotem do pozycji wyjściowej, rozciągając mięśnie ruchowe barku.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wykonywania face pull z użyciem gum, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i skupieniu na skurczu mięśni ruchowych barku. Utrzymuj stabilną postawę, utrzymuj napięcie mięśni brzucha i pleców oraz kontroluj oddech. "
         val imageTitle5 = "Face pull"
 
         imageView5.setOnClickListener {
@@ -172,13 +202,19 @@ class Pull : AppCompatActivity() {
 
         val imageView6 = findViewById<ImageView>(R.id.imageView6)
         val imageResource6 = R.drawable.biceps // Zasób obrazu
-        val imageDescription6 = "Stanij prosto, trzymając sztangę podchwytem na szerokość barków. Stopy ustaw szerokość barków, lekko zgięte w kolanach. Ramiona powinny być wyciągnięte wzdłuż ciała, blisko torsu.\n" +
+        val imageDescription6 = "Uginanie przedramion ze sztangą to ćwiczenie, które skupia się głównie na mięśniach bicepsów, ale również angażuje mięśnie przedramion. Oto opis techniki wykonania tego ćwiczenia:\n" +
                 "\n" +
-                "Zaczynając od wyprostowanej pozycji, zginij łokcie i unieś sztangę w kierunku ramion, skupiając się na skurczeniu mięśni przedramion. Upewnij się, że tylko przedramiona wykonują ruch, a pozostała część ciała pozostaje nieruchoma.\n" +
+                "Stanij prosto, trzymając sztangę nachwytem (dłonie skierowane do ciebie) na szerokość nieco większą niż szerokość barków. Sztanga powinna być trzymana na wprost, tuż przy udach.\n" +
                 "\n" +
-                "Następnie kontrolowanie opuść sztangę do wyjściowej pozycji, rozciągając mięśnie przedramion. Powtórz ruch dla określonej liczby powtórzeń.\n" +
+                "Zegnij łokcie i unieś sztangę, unosząc ją do góry w kierunku ramion. Pamiętaj, aby ruch był kontrolowany i skupiony na mięśniach bicepsów.\n" +
                 "\n" +
-                "Wykonuj uginanie przedramion ze sztangą w kontrolowany sposób, skupiając się na prawidłowej technice i pełnym zakresie ruchu."
+                "W górnej pozycji, kiedy sztanga znajdzie się blisko ramion, zatrzymaj się na chwilę, czując napięcie w mięśniach bicepsów.\n" +
+                "\n" +
+                "Powoli kontroluj opuszczanie sztangi z powrotem do pozycji wyjściowej, rozciągając mięśnie bicepsów i zachowując kontrolowany ruch.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wykonywania uginania przedramion ze sztangą, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i skupieniu na skurczu mięśni bicepsów. "
         val imageTitle6 = "Ugianie przedramion ze sztangą"
 
         imageView6.setOnClickListener {

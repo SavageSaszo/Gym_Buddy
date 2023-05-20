@@ -33,7 +33,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text="Ćwiczenie 1" />
+            android:text=" Wyciskanie sztangi na ławce płaskiej" />
 
         <TextView
             android:id="@+id/exercise_1_series_reps"
@@ -43,7 +43,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 1 x 12" />
+            android:text=" 4 x 8" />
 
         <ImageView
             android:id="@+id/imageView1"
@@ -69,7 +69,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text="Ćwiczenie 2" />
+            android:text=" Popmpki na poręczach" />
 
         <TextView
             android:id="@+id/exercise_2_series_reps"
@@ -79,7 +79,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 1 x 12" />
+            android:text=" 3 x 10" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -105,7 +105,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text="Ćwiczenie 3" />
+            android:text=" Wyciskanie sztangielek na ławce o skosie dodatnim" />
 
         <TextView
             android:id="@+id/exercise_3_series_reps"
@@ -115,7 +115,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 1 x 12" />
+            android:text=" 4 x 10" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -141,7 +141,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text="Ćwiczenie 4" />
+            android:text=" Rozpiętki ze sztangielkami na ławce o skosie dodatnim" />
 
         <TextView
             android:id="@+id/exercise_4_series_reps"
@@ -151,7 +151,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 1 x 12" />
+            android:text=" 3 x 10" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -177,7 +177,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text="Ćwiczenie 5" />
+            android:text=" Prostowanie ramion na linie wyciągu górnego" />
 
         <TextView
             android:id="@+id/exercise_5_series_reps"
@@ -187,7 +187,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 1 x 12" />
+            android:text=" 4 x 10" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -213,7 +213,7 @@
             android:textSize="17sp"
             android:layout_marginTop="10dp"
             android:layout_weight="7"
-            android:text="Ćwiczenie 6" />
+            android:text=" Pompki na poręczach" />
 
         <TextView
             android:id="@+id/exercise_6_series_reps"
@@ -223,7 +223,7 @@
             android:textSize="17sp"
             android:layout_weight="2"
             android:gravity="start"
-            android:text=" 1 x 12" />
+            android:text=" 4 x 10" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -244,31 +244,7 @@
         android:layout_marginTop="370dp"
         android:padding="1dp">
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:textSize="17sp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="7"
-            android:text="Ćwiczenie 7" />
 
-        <TextView
-            android:id="@+id/exercise_7_series_reps"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textSize="17sp"
-            android:layout_weight="2"
-            android:gravity="start"
-            android:text=" 1 x 12" />
-
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_weight="1"
-            app:srcCompat="@android:drawable/ic_menu_info_details" />
 
     </LinearLayout>
 

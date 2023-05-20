@@ -83,25 +83,21 @@ class Push : AppCompatActivity() {
 
         val imageView1 = findViewById<ImageView>(R.id.imageView1)
         val imageResource1 = R.drawable.wyciskanie_lawka_plaska // Zasób obrazu
-        val imageDescription1 = "Wyciskanie sztangi na ławce płaskiej to ćwiczenie" +
-                " siłowe, które koncentruje się na wzmacnianiu klatki piersiowej," +
-                " ramion i tricepsów. Aby je wykonać prawidłowo, połóż się na " +
-                "płaskiej ławce, tak aby plecy, pośladki i głowa miały pełny" +
-                " kontakt z powierzchnią. Nogi powinny być ustawione stabilnie" +
-                " na podłodze. Chwyć sztangę na szerokość nieco większą niż " +
-                "szerokość barków, trzymając ją pewnie i stabilnie. Zdejmij" +
-                " sztangę ze stojaków i opuść ją powoli i kontrolowanie do" +
-                " linii klatki piersiowej, zginając łokcie. Pamiętaj, aby" +
-                " utrzymać napięcie w mięśniach klatki piersiowej i tricepsach." +
-                " Następnie, napnij mięśnie klatki piersiowej i wyprostuj ramiona," +
-                " unosząc sztangę w górę. Kontroluj ruch i unikaj zbyt dużego" +
-                " naprężenia pleców. Gdy sztanga znajdzie się na górze, chwilę" +
-                " ją zatrzymaj, a następnie powoli opuść z powrotem do linii" +
-                " klatki piersiowej, kontrolując ruch. Wykonuj wyciskanie sztangi" +
-                " na ławce płaskiej w kontrolowany sposób, skupiając się na" +
-                " prawidłowej technice i pełnym zakresie ruchu. Pamiętaj również" +
-                " o odpowiednim oddychaniu, wdychając powietrze podczas opuszczania" +
-                " sztangi i wydychając je podczas jej unoszenia."
+        val imageDescription1 = "Wyciskanie na ławce płaskiej leżąc to popularne ćwiczenie angażujące głównie mięśnie klatki piersiowej, tricepsów i mięśnie przedramion. Oto opis techniki wykonania tego ćwiczenia:\n" +
+                "\n" +
+                "Połóż się na ławce płaskiej, tak aby plecy, pośladki i głowa były dobrze podparte. Stopy postaw na podłodze dla stabilności.\n" +
+                "\n" +
+                "Chwyć sztangę nachwytem (dłonie skierowane na zewnątrz) na szerokość nieco większą niż szerokość barków. Sztanga powinna być trzymana na wysokości klatki piersiowej.\n" +
+                "\n" +
+                "Zdejmij sztangę z uchwytu, wyciągając ją w górę i unieś ją nad klatkę piersiową, utrzymując ręce w linii prostej nad barkami.\n" +
+                "\n" +
+                "Zegnij łokcie i powoli opuść sztangę do dolnej pozycji, kontrolując ruch i zachowując stabilną postawę.\n" +
+                "\n" +
+                "Przy napięciu mięśni klatki piersiowej, wyciśnij sztangę do góry, prostując ręce i powracając do początkowej pozycji.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wyciskania na ławce płaskiej leżąc, pamiętaj o prawidłowej technice wykonania, utrzymaniu stabilnej postawy i kontrolowanym ruchu."
         val imageTitle1 = "Wyciskanie sztangi na ławce płaskiej"
 
         imageView1.setOnClickListener {
@@ -110,18 +106,21 @@ class Push : AppCompatActivity() {
 
         val imageView2 = findViewById<ImageView>(R.id.imageView2)
         val imageResource2 = R.drawable.dipy // Zasób obrazu
-        val imageDescription2 = "Pompki na poręczach to ćwiczenie siłowe angażujące" +
-                " mięśnie klatki piersiowej, ramion i tricepsów. Aby je wykonać" +
-                " prawidłowo, znajdź stabilne poręcze o odpowiedniej wysokości i" +
-                " odległości. Stojąc między poręczami, stopy na podłodze, dłonie" +
-                " pewnie chwytając poręcze, zegnij łokcie, opuść ciało, zbliżając" +
-                " klatkę piersiową do poziomu poręczy. Napnij mięśnie klatki" +
-                " piersiowej i tricepsów, wyprostowując ramiona i unosząc ciało." +
-                " Kontroluj ruch, zatrzymując się na szczycie, a następnie powoli" +
-                " opuść ciało do pozycji wyjściowej. Wykonuj pompki na poręczach" +
-                " kontrolowanie, skupiając się na pełnym zakresie ruchu i właściwej" +
-                " technice. Regularne wykonywanie tego ćwiczenia wzmocni mięśnie" +
-                " górnej części ciała."
+        val imageDescription2 = "Pompki na poręczach to skuteczne ćwiczenie, które angażuje przede wszystkim mięśnie klatki piersiowej, tricepsów i mięśnie przedramion. Oto opis techniki wykonania tego ćwiczenia:\n" +
+                "\n" +
+                "Znajdź dwie poręcze o odpowiedniej wysokości, na których będziesz wykonywać pompki. Upewnij się, że poręcze są stabilne i bezpieczne.\n" +
+                "\n" +
+                "Stań między poręczami, trzymając się za nimi chwytem nachwytem (dłonie skierowane na zewnątrz) na szerokość nieco większą niż szerokość barków.\n" +
+                "\n" +
+                "Unieś się na rękach, wyprostowanych ramionach i z nogami zgiętymi w kolanach, aby stworzyć pozycję wyjściową do wykonywania pompek.\n" +
+                "\n" +
+                "Zginij łokcie i powoli opuść się w dół, schodząc jak najniżej, aż ramiona będą ugięte pod kątem około 90 stopni.\n" +
+                "\n" +
+                "Następnie wypchnij się mocno, prostując ramiona i wracając do pozycji wyjściowej.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wykonywania pompki na poręczach, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i napięciu mięśni."
         val imageTitle2 = " Pompki na poręczach"
 
         imageView2.setOnClickListener {
@@ -130,22 +129,19 @@ class Push : AppCompatActivity() {
 
         val imageView3 = findViewById<ImageView>(R.id.imageView3)
         val imageResource3 = R.drawable.wyciskanie_zolnierskie // Zasób obrazu
-        val imageDescription3 = "Wyciskanie sztangi stojąc to ćwiczenie siłowe," +
-                " które skupia się na wzmacnianiu klatki piersiowej, ramion" +
-                " i tricepsów. Aby je wykonać prawidłowo, postępuj zgodnie z" +
-                " poniższymi wskazówkami. Stań prosto, stopy rozstawione na" +
-                " szerokość barków, trzymając sztangę na wysokości klatki" +
-                " piersiowej. Chwyć sztangę szeroko na zewnątrz, dłonie" +
-                " skierowane do przodu, palce oplatające sztangę. Upewnij" +
-                " się, że masz pewny chwyt i utrzymuj napięcie w mięśniach" +
-                " brzucha i pośladków, zapewniając stabilność ciała. Teraz" +
-                " unieś sztangę, prostując ramiona. Kontroluj ruch i unikaj" +
-                " nadmiernego wygięcia pleców. Gdy sztanga jest na górze," +
-                " utrzymaj ją przez chwilę, a następnie powoli opuść z" +
-                " powrotem do pozycji wyjściowej, zginając łokcie i zwracając" +
-                " uwagę na napięcie w mięśniach klatki piersiowej i" +
-                " tricepsach. Pamiętaj o utrzymaniu właściwej techniki" +
-                " i pełnym zakresie ruchu."
+        val imageDescription3 = "Wyciskanie żołnierskie, znane również jako wyciskanie nad głowę, to skuteczne ćwiczenie angażujące głównie mięśnie ramion, barków i klatki piersiowej. Oto opis techniki wykonania tego ćwiczenia:\n" +
+                "\n" +
+                "Rozpocznij, stojąc prosto, nogi ustawione na szerokość barków. Chwyć sztangę nachwytem (dłonie skierowane na zewnątrz) na szerokość nieco większą niż szerokość barków. Sztanga powinna być uniesiona do poziomu klatki piersiowej.\n" +
+                "\n" +
+                "Przytrzymaj sztangę na wysokości klatki piersiowej, trzymając ją mocno i stabilnie. Napnij mięśnie brzucha i pleców, utrzymując prostą postawę.\n" +
+                "\n" +
+                "Wypchnij sztangę do góry, prostując ramiona i unosząc ją nad głowę. W trakcie unoszenia, utrzymuj kontrolowany ruch i skup się na skurczu mięśni ramion i barków.\n" +
+                "\n" +
+                "Zatrzymaj się na chwilę w górnym punkcie, a następnie powoli opuść sztangę z powrotem do pozycji wyjściowej na poziomie klatki piersiowej.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wykonywania wyciskania żołnierskiego, pamiętaj o prawidłowej technice wykonania, kontrolowanym ruchu i utrzymaniu stabilnej postawy. Skup się na skurczu mięśni ramion, barków i klatki piersiowej podczas unoszenia sztangi."
         val imageTitle3 = "Wyciskanie sztangi stojąc"
 
         imageView3.setOnClickListener {
@@ -154,28 +150,19 @@ class Push : AppCompatActivity() {
 
         val imageView4 = findViewById<ImageView>(R.id.imageView4)
         val imageResource4 = R.drawable.wyciskanie_hantli_skos // Zasób obrazu
-        val imageDescription4 = "Wyciskanie hantli na ławce skośnej to" +
-                " ćwiczenie skupione na wzmacnianiu klatki piersiowej," +
-                " ramion i tricepsów. Usiądź na ławce skośnej, tak aby " +
-                "górna część pleców była dobrze podparta. Utrzymuj stabilną" +
-                " pozycję ciała. Weź hantle w obie ręce i unieś je na poziom" +
-                " ramion, trzymając przedramiona równolegle do podłogi." +
-                " Wydychając powietrze, napnij mięśnie klatki piersiowej" +
-                " i wolno opuść hantle na boki, kontrolując ruch. Zatrzymaj" +
-                " się, gdy twoje ramiona znajdą się na wysokości barków." +
-                " Następnie, wdychając powietrze, wyprostuj ramiona, unosząc" +
-                " hantle do góry w kierunku sufitu. Zatrzymaj się na chwilę" +
-                " w pełnym wyproście ramion. Powtórz ruch przez określoną" +
-                " liczbę powtórzeń, kontrolując tempo i zachowując prawidłową" +
-                " technikę. Pamiętaj o utrzymaniu napięcia w mięśniach" +
-                " klatki piersiowej i tricepsów podczas całego ruchu." +
-                " Po zakończeniu serii ćwiczenia, delikatnie opuść hantle" +
-                " i zdejmij je z ławki skośnej. Pamiętaj również o" +
-                " odpowiednim oddychaniu, wdychając powietrze podczas" +
-                " opuszczania hantli i wydychając je podczas ich unoszenia." +
-                " Wykonuj wyciskanie hantli na ławce skośnej w kontrolowany" +
-                " sposób, skupiając się na prawidłowej technice i pełnym" +
-                " zakresie ruchu."
+        val imageDescription4 = "Wyciskanie hantli na ławce skośnej to ćwiczenie skupione głównie na mięśniach klatki piersiowej, przednich aktonach mięśnia naramiennego, tricepsach oraz mięśniach stabilizujących rdzeń. Poniżej znajduje się opis techniki wykonania tego ćwiczenia:\n" +
+                "\n" +
+                "Ustaw ławkę skośną na odpowiednim nachyleniu, z górnym końcem wyżej od dolnego końca. Połóż się na ławce, plecami do niej, tak aby stopy były stabilnie osadzone na podłodze.\n" +
+                "\n" +
+                "Chwyć hantle nachwytem (dłonie skierowane na zewnątrz) na wysokości klatki piersiowej. Ręce powinny być ustawione na szerokość nieco większą niż szerokość barków.\n" +
+                "\n" +
+                "Wypchnij hantle do góry, prostując ramiona i unosząc je nad głowę. Skoncentruj się na skurczu mięśni klatki piersiowej.\n" +
+                "\n" +
+                "Zatrzymaj się na chwilę w górnym punkcie, a następnie kontroluj ruch, opuszczając hantle powoli do poziomu klatki piersiowej.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wyciskania hantli na ławce skośnej, pamiętaj o zachowaniu prawidłowej techniki wykonania, utrzymaniu stabilnej postawy i kontrolowanym ruchu."
         val imageTitle4 = "Wyciskanie hantli na ławce skośnej"
 
         imageView4.setOnClickListener {
@@ -184,24 +171,19 @@ class Push : AppCompatActivity() {
 
         val imageView5 = findViewById<ImageView>(R.id.imageView5)
         val imageResource5 = R.drawable.wycisaknie_francuskie // Zasób obrazu
-        val imageDescription5 = "Wyciskanie francuskie to ćwiczenie skupione" +
-                " na wzmacnianiu tricepsów. Aby je wykonać prawidłowo, postępuj" +
-                " zgodnie z poniższymi wskazówkami: Usiądź na ławce, trzymając" +
-                " sztangę nad głową. Twoje stopy powinny być płasko na ziemi," +
-                " a plecy proste. Przytrzymaj sztangę oburącz na wysokości" +
-                " klatki piersiowej, z dłońmi skierowanymi w stronę głowy." +
-                " Wydychając powietrze, zgiń łokcie i opuść sztangę za głowę," +
-                " kontrolując ruch. Zatrzymaj się, gdy przedramiona będą" +
-                " niemal równoległe do podłogi. Następnie, wdychając powietrze," +
-                " wyprostuj ramiona, unosząc sztangę w górę w kierunku sufitu." +
-                " Zatrzymaj się na chwilę w pełnym wyproście ramion. Powtórz" +
-                " ruch przez określoną liczbę powtórzeń, kontrolując tempo i" +
-                " zachowując prawidłową technikę. Pamiętaj o utrzymaniu napięcia" +
-                " w tricepsach podczas całego ruchu. Po zakończeniu serii" +
-                " ćwiczenia, delikatnie opuść sztangę i umieść ją z powrotem" +
-                " na stojak. Wykonuj wyciskanie francuskie w kontrolowany" +
-                " sposób, skupiając się na prawidłowej technice i pełnym" +
-                " zakresie ruchu."
+        val imageDescription5 = "Wyciskanie francuskie, znane również jako pompki francuskie lub francuskie wyciskanie sztangi, to ćwiczenie skupione głównie na mięśniach tricepsów. Poniżej znajduje się opis techniki wykonania tego ćwiczenia:\n" +
+                "\n" +
+                "Połóż się na ławce płaskiej lub skośnej, trzymając sztangę nachwytem (dłonie skierowane na zewnątrz) na szerokość nieco węższą niż szerokość barków. Unieś sztangę nad głowę, trzymając ją prostymi ramionami.\n" +
+                "\n" +
+                "Zegnij łokcie i powoli opuść sztangę za głowę, skręcając przedramiona. Kontroluj ruch i unikaj nadmiernego rozchylenia łokci.\n" +
+                "\n" +
+                "Zatrzymaj się na chwilę w dolnej pozycji, poczując napięcie w tricepsach.\n" +
+                "\n" +
+                "Następnie prostuj łokcie i unosząc sztangę z powrotem do pozycji wyjściowej nad głowę.\n" +
+                "\n" +
+                "Powtórz ćwiczenie przez zaleconą liczbę powtórzeń.\n" +
+                "\n" +
+                "Podczas wyciskania francuskiego, pamiętaj o zachowaniu prawidłowej techniki wykonania, kontrolowanym ruchu i napięciu mięśni tricepsów."
         val imageTitle5 = "Wyciskanie francuskie"
 
         imageView5.setOnClickListener {
