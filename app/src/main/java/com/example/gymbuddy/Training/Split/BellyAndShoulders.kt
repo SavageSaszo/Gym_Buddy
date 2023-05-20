@@ -81,6 +81,69 @@ class BellyAndShoulders : AppCompatActivity() {
 
         mediaPlayer = MediaPlayer.create(this, R.raw.happy_wheels_finish_sf)
 
+        val imageView1 = findViewById<ImageView>(R.id.imageView1)
+        val imageResource1 = R.drawable.martwy_ciag // Zasób obrazu
+        val imageDescription1 = ""
+        val imageTitle1 = "Martwy ciąg"
+
+        imageView1.setOnClickListener {
+            showImageDialog(imageResource1, imageDescription1, imageTitle1)
+        }
+
+        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+        val imageResource2 = R.drawable.martwy_ciag // Zasób obrazu
+        val imageDescription2 = ""
+        val imageTitle2 = "Martwy ciąg"
+
+        imageView2.setOnClickListener {
+            showImageDialog(imageResource2, imageDescription2, imageTitle2)
+        }
+
+        val imageView3 = findViewById<ImageView>(R.id.imageView3)
+        val imageResource3 = R.drawable.martwy_ciag // Zasób obrazu
+        val imageDescription3 = ""
+        val imageTitle3 = "Martwy ciąg"
+
+        imageView3.setOnClickListener {
+            showImageDialog(imageResource3, imageDescription3, imageTitle3)
+        }
+
+        val imageView4 = findViewById<ImageView>(R.id.imageView4)
+        val imageResource4 = R.drawable.martwy_ciag // Zasób obrazu
+        val imageDescription4 = ""
+        val imageTitle4 = "Martwy ciąg"
+
+        imageView4.setOnClickListener {
+            showImageDialog(imageResource4, imageDescription4, imageTitle4)
+        }
+
+        val imageView5 = findViewById<ImageView>(R.id.imageView5)
+        val imageResource5 = R.drawable.martwy_ciag // Zasób obrazu
+        val imageDescription5 = ""
+        val imageTitle5 = "Martwy ciąg"
+
+        imageView5.setOnClickListener {
+            showImageDialog(imageResource5, imageDescription5, imageTitle5)
+        }
+
+        val imageView6 = findViewById<ImageView>(R.id.imageView6)
+        val imageResource6 = R.drawable.martwy_ciag // Zasób obrazu
+        val imageDescription6 = ""
+        val imageTitle6 = "Martwy ciąg"
+
+        imageView6.setOnClickListener {
+            showImageDialog(imageResource6, imageDescription6, imageTitle6)
+        }
+
+        val imageView7 = findViewById<ImageView>(R.id.imageView7)
+        val imageResource7 = R.drawable.martwy_ciag // Zasób obrazu
+        val imageDescription7 = ""
+        val imageTitle7 = "Martwy ciąg"
+
+        imageView7.setOnClickListener {
+            showImageDialog(imageResource7, imageDescription7, imageTitle7)
+        }
+
 
     }
 
