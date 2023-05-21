@@ -6,6 +6,18 @@
     android:layout_height="match_parent">
 
 
+    <!-- Nagłówek okienka -->
+    <TextView
+        android:id="@+id/tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dziennik kalorii"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+
+
     <LinearLayout
         android:id="@+id/nutrition_info_layout"
         android:layout_width="match_parent"
@@ -48,6 +60,7 @@
 
     <TextView
         android:id="@+id/date_textview"
+        android:layout_below="@id/tittle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Dziennik - 6 kwietnia 2023"

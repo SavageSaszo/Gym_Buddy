@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user_icon"
+        android:scaleType="center"
+        android:adjustViewBounds="true"
+        android:padding="16dp" />
 
     <!-- Nagłówek listy -->
     <TextView
         android:id="@+id/user_list_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lista użytkowników"
+        android:text="Użytkownicy:"
+        android:layout_below="@id/logo_imageview"
         android:padding="16dp"
         android:textSize="20sp" />
 
@@ -21,7 +30,10 @@
     <ListView
         android:id="@+id/user_listview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"
+        android:layout_below="@id/user_list_header"
+        android:layout_above="@+id/add_user_button"
+        android:gravity="center" />
 
     <!-- Przycisk dodawania nowego użytkownika -->
     <Button
@@ -29,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Dodaj użytkownika"
+        android:layout_alignParentBottom="true"
         android:padding="16dp" />
 
-
-</LinearLayout>
+</RelativeLayout>
