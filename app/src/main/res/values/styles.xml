@@ -2,6 +2,13 @@
 <resources>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">#FFFFFF</item>
+        <item name="android:buttonStyle">@style/CustomButtonStyle</item>
         <!-- Pozostałe atrybuty stylu -->
+    </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <!-- Dodatkowe atrybuty stylu dla przycisków -->
     </style>
 </resources>

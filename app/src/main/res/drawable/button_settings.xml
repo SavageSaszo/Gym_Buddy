@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <bitmap android:src="@drawable/tlo" /> <!-- Ścieżka do pliku z obrazem -->
+    <corners android:radius="20dp" /> <!-- Promień zaokrąglenia przycisku -->
+</shape>
