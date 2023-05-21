@@ -6,32 +6,116 @@
     tools:context=".UserMenu"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/profilButton"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_margin="40dp"
         android:layout_height="wrap_content"
-        android:text="Profil użytkownika"/>
+        android:text="Menu"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="16dp"/>
 
-    <Button
-        android:id="@+id/kalorieButton"
+    <GridLayout
         android:layout_width="match_parent"
-        android:layout_margin="40dp"
         android:layout_height="wrap_content"
-        android:text="Dziennik kalorii"/>
+        android:columnCount="2">
 
-    <Button
-        android:id="@+id/kcalButton"
-        android:layout_width="match_parent"
-        android:layout_margin="40dp"
-        android:layout_height="wrap_content"
-        android:text="Kcal i BMI"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_columnWeight="1"
+            android:layout_margin="40dp"
+            android:gravity="center">
 
-    <Button
-        android:id="@+id/treningButton"
-        android:layout_width="match_parent"
-        android:layout_margin="40dp"
-        android:layout_height="wrap_content"
-        android:text="Trening"/>
+            <Button
+                android:id="@+id/profilButton"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:background="@drawable/user_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profil użytkownika"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_columnWeight="1"
+            android:layout_margin="40dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/kalorieButton"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:background="@drawable/journal_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Dziennik kalori"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="40dp">
+
+            <Button
+                android:id="@+id/kcalButton"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:background="@drawable/calculator_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Kalkulator Kcal i BMI"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_margin="40dp">
+
+            <Button
+                android:id="@+id/treningButton"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:background="@drawable/gym_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Trening"/>
+
+        </LinearLayout>
+
+    </GridLayout>
 
 </LinearLayout>
