@@ -1,6 +1,7 @@
 package com.example.gymbuddy.Training
 
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -59,6 +60,14 @@ class TrainingMenu : AppCompatActivity() {
 
             val alert = dialogBuilder.create()
             alert.setTitle("Opis planu treningowego")
+
+            // Ustawienie tła przycisku zamknięcia dialogu na ciemno niebieski
+            alert.setOnShowListener {
+                val positiveButton = alert.getButton(AlertDialog.BUTTON_POSITIVE)
+                positiveButton.setTextColor(Color.WHITE)
+                positiveButton.setBackgroundColor(Color.parseColor("#1976D2"))
+            }
+
             alert.show()
         }
 
@@ -86,6 +95,14 @@ class TrainingMenu : AppCompatActivity() {
 
             val alert = dialogBuilder.create()
             alert.setTitle("Opis planu treningowego")
+
+            // Ustawienie tła przycisku zamknięcia dialogu na ciemno niebieski
+            alert.setOnShowListener {
+                val positiveButton = alert.getButton(AlertDialog.BUTTON_POSITIVE)
+                positiveButton.setTextColor(Color.WHITE)
+                positiveButton.setBackgroundColor(Color.parseColor("#1976D2"))
+            }
+
             alert.show()
         }
 
@@ -121,6 +138,14 @@ class TrainingMenu : AppCompatActivity() {
 
             val alert = dialogBuilder.create()
             alert.setTitle("Opis planu treningowego")
+
+            // Ustawienie tła przycisku zamknięcia dialogu na ciemno niebieski
+            alert.setOnShowListener {
+                val positiveButton = alert.getButton(AlertDialog.BUTTON_POSITIVE)
+                positiveButton.setTextColor(Color.WHITE)
+                positiveButton.setBackgroundColor(Color.parseColor("#1976D2"))
+            }
+
             alert.show()
         }
     }

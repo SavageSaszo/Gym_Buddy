@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
     tools:context=".Training.Split.SplitMenu">
 
     <!-- Tekst na górze -->
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text=""
+        android:text="Trening siłowy split dla zaawansowanych to metoda treningowa oparta na podziale na cztery dni w tygodniu, z fokusem na różnych grupach mięśniowych. Pierwszy trening skupia się na plecach i bicepsach, angażując mięśnie pleców i ramion. Drugi trening koncentruje się na brzuchu i barkach, poprawiając stabilność korpusu. Trzeci trening skierowany jest na klatkę piersiową i tricepsy, rozwijając siłę w górnej partii ciała. Czwarty trening skupia się na nogach, wzmocniając mięśnie nóg i pośladków. Dzięki temu podziałowi treningu, skupiasz się na konkretnych grupach mięśniowych, prowadząc do lepszych rezultatów treningowych. Pamiętaj o dostosowaniu ciężarów do swoich możliwości i postępnym zwiększaniu obciążenia."
         android:textSize="18sp"
         app:layout_constraintTop_toBottomOf="@id/textView"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,24 +49,23 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
 
             <Button
                 android:id="@+id/backandbiceps"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginEnd="4dp"
                 android:text="Back &amp; Biceps" />
-
-            <Space
-                android:layout_width="8dp"
-                android:layout_height="match_parent" />
 
             <Button
                 android:id="@+id/bellyandshoulders"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginStart="4dp"
                 android:text="Belly &amp; Shoulders" />
 
         </LinearLayout>
@@ -81,17 +81,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginEnd="4dp"
                 android:text="Chest &amp; Triceps" />
-
-            <Space
-                android:layout_width="8dp"
-                android:layout_height="match_parent" />
 
             <Button
                 android:id="@+id/legs"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginStart="4dp"
                 android:text="Legs" />
 
         </LinearLayout>
