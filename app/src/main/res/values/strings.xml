@@ -16,7 +16,7 @@
     </string-array>
     <string name="minutes">Minuty: %1$d</string>
     <string name="time_remaining">Time remaining: %1$d seconds</string>
-    <string name="time_up">Time\'s up!</string>
+    <string name="time_up">Czas minął !</string>
     <string name="licznik_text">Odliczanie: %s</string>
 
 </resources>

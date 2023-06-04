@@ -36,7 +36,7 @@ class KcalBmi : AppCompatActivity() {
             val bmr = calculateBmr(user.gender, user.age, user.height, user.weight)
 
             // Calculate TDEE
-            val tdee = calculateTdee(bmr, user.level)
+            val tdee = calculateTdee(bmr, user.level, user.goal)
 
             val withoutprotein = tdee-(user.weight*1.1)
 
@@ -70,7 +70,7 @@ class KcalBmi : AppCompatActivity() {
         return 10 * weight + 6.25 * height - 5 * age + s
     }
 
-    fun calculateTdee(bmr: Double, level: String): Double {
+    fun calculateTdee(bmr: Double, level: String, goal: String): Double {
         val activityLevel = when (level) {
             "Brak aktywności fizycznej" -> 1.2
             "Niska aktywność fizyczna" -> 1.375
@@ -78,7 +78,14 @@ class KcalBmi : AppCompatActivity() {
             "Wysoka aktywność fizyczna" -> 1.725
             else -> 1.9
         }
-        return bmr * activityLevel
+
+        val goalMultiplier = when (goal) {
+            "Utrata wagi" -> 0.8
+            "Wzrost masy" -> 1.2
+            else -> 1.0
+        }
+
+        return bmr * activityLevel * goalMultiplier
     }
     fun calculateProtein(weight: Int): Double {
         return weight.toDouble()  * 1.1 // 1.1 g of protein per pound of body weight

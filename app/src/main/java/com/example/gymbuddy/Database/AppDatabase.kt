@@ -5,7 +5,6 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import java.util.*
 
-
 @Database(entities = [User::class, Meal::class], version = 1 , exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun userDao(): UserDao
@@ -28,8 +27,6 @@ abstract class AppDatabase : RoomDatabase() {
         }
     }
 }
-
-
 @Entity(tableName = "users")
 data class User(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
@@ -41,7 +38,6 @@ data class User(
     val goal: String,
     val level: String,
 )
-
 @Dao
 interface UserDao {
 
