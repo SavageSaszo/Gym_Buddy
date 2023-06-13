@@ -88,7 +88,7 @@ class FBW_A : AppCompatActivity() {
         val imageResource1 = R.drawable.przysiad_tyl // Zasób obrazu
         val imageDescription1 = "Przysiady ze sztangą na plecach to skuteczne ćwiczenie, które angażuje głównie mięśnie ud, pośladków, mięśnie czworogłowe uda oraz mięśnie korpusu. Oto opis techniki wykonania tego ćwiczenia:\n" +
                 "\n" +
-                "Stanij prosto, trzymając sztangę na plecach na wysokości górnej części mięśni grzbietowych. Sztanga powinna być stabilnie umieszczona na karku, trzymając ją za chwytak nachwytem (dłonie skierowane na zewnątrz) na odpowiedniej szerokości.\n" +
+                "Stań prosto, trzymając sztangę na plecach na wysokości górnej części mięśni grzbietowych. Sztanga powinna być stabilnie umieszczona na karku, trzymając ją za chwytak nachwytem (dłonie skierowane na zewnątrz) na odpowiedniej szerokości.\n" +
                 "\n" +
                 "Rozstaw nogi na szerokość nieco większą niż szerokość barków. Unieś klatkę piersiową i zegnij lekko w pasie. To jest pozycja wyjściowa.\n" +
                 "\n" +
